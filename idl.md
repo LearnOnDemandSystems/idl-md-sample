@@ -109,9 +109,8 @@ function.
 Congratulations. You have now finished the first exercise! You should have an
 idea of what JEA is by now. Click **Continue** to advance to the next exercise.
 
-```
-IntroductionUri = https://lodmanuals.blob.core.windows.net/manuals/Ignite 2016/Videos/IDL4002_new content/Experiencing PowerShell JEA.mp4
-```
+>LODSProperties
+>* IntroductionUri = https://lodmanuals.blob.core.windows.net/manuals/Ignite 2016/Videos/IDL4002_new content/Experiencing PowerShell JEA.mp4
 
 <hr>
 
@@ -123,9 +122,8 @@ instruction, and then sign in to **SRV01** as **CONTOSO\LabAdmin** using
 
 #### :computer: ACTIONS
 
-```
-VM = SRV01
-```
+>LODSProperties
+>* VM = SRV01
 
 <hr>
 
@@ -135,10 +133,9 @@ On the taskbar, click **Windows PowerShell ISE**.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/open-windows-powershell-ise.png 
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/open-windows-powershell-ise.png 
+>* ShowAutomatically = No
 
 #### :calling: COMMAND PowerShell
 
@@ -166,10 +163,9 @@ exercise.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/open-the-powershell-script-1.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/open-the-powershell-script-1.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -186,10 +182,9 @@ is why the commands in this file must be run one at a time.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/read-the-script-description-1.png 
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/read-the-script-description-1.png 
+>* ShowAutomatically = No
 
 <hr>
 
@@ -220,10 +215,10 @@ selected command so that you can work more efficiently.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/store-non-admin-credentials.png 
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/store-non-admin-credentials.png 
+>* ShowAutomatically = No
+
 
 <hr>
 
@@ -241,10 +236,9 @@ inside of a remote session on localhost.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/connect-to-a-jea-endpoint.png 
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/connect-to-a-jea-endpoint.png 
+>* ShowAutomatically = No
 
 <hr>
 
@@ -266,10 +260,9 @@ JEA endpoint and add commands to it in a later exercise.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/list-the-endpoint-commands-1.png 
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/list-the-endpoint-commands-1.png 
+>* ShowAutomatically = No
 
 <hr>
 
@@ -301,10 +294,9 @@ session.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/show-the-connecteduser-and-runasuser-context.png 
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/show-the-connecteduser-and-runasuser-context.png 
+>* ShowAutomatically = No
 
 <hr>
 
@@ -323,10 +315,9 @@ by using non-privileged credentials (CONTOSO\BenSmith).
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/execute-the-command-as-non-admin.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/execute-the-command-as-non-admin.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -347,10 +338,9 @@ that are exposed to them. You will learn more about this in the next exercise.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/execute-a-command-not-included-in-the-endpoint.png 
-ShowAutomatically = No|Once|EveryTime
-```
+>LODSProperties
+>* Uri = screens/execute-a-command-not-included-in-the-endpoint.png 
+>* ShowAutomatically = No|Once|EveryTime
 
 <hr>
 
@@ -382,10 +372,9 @@ of CONTOSO\BenSmith.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/repeat-the-last-command-as-admin.jpg 
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/repeat-the-last-command-as-admin.jpg 
+>* ShowAutomatically = No
 
 <hr>
 
@@ -409,9 +398,8 @@ Congratulations! You now understand what JEA endpoints allow you to do, and you
 know how to create and manage JEA endpoints. Click Continue to advance to the
 next exercise.
 
-```
-IntroductionUri = https://lodmanuals.blob.core.windows.net/manuals/Ignite 2016/Videos/IDL4002_new content/Creating and Managing a JEA Endpoint.mp4
-```
+>LODSProperties
+>* IntroductionUri = https://lodmanuals.blob.core.windows.net/manuals/Ignite 2016/Videos/IDL4002_new content/Creating and Managing a JEA Endpoint.mp4
 
 <hr>
 
@@ -433,10 +421,9 @@ On the File menu, click **Open**. Browse to
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/open-the-powershell-script-2.png 
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/open-the-powershell-script-2.png 
+>* ShowAutomatically = No
 
 <hr>
 
@@ -446,10 +433,9 @@ Read the comments at the top of the **2-JEACreateAndManage.ps1** file.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/read-the-script-description-2.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/read-the-script-description-2.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -469,10 +455,9 @@ to understand how JEA works by completing the tasks in the previous exercise.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/show-all-powershell-remoting-endpoints.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/show-all-powershell-remoting-endpoints.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -490,10 +475,9 @@ remain on the disk in case you need them later.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/unregister-the-jeademo-endpoint.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/unregister-the-jeademo-endpoint.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -510,10 +494,9 @@ because the JEA endpoint is no longer registered.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/show-all-powershell-remoting-endpoints-again.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/show-all-powershell-remoting-endpoints-again.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -541,10 +524,9 @@ endpoint that is registered in your environment.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/re-register-the-jeademo-endpoint.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/re-register-the-jeademo-endpoint.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -579,10 +561,9 @@ open the file in the next task.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/create-an-endpoint-configuration-file.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/create-an-endpoint-configuration-file.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -597,10 +578,9 @@ PowerShell ISE.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/open-the-file.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/open-the-file.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -623,10 +603,9 @@ file as the configuration file.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/review-the-file-contents-1.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/review-the-file-contents-1.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -650,10 +629,9 @@ configuring your JEA endpoint.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/modify-the-sessiontype-value.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/modify-the-sessiontype-value.png
+>* ShowAutomatically = No
 
 #### :calling: COMMAND TypeText
 
@@ -683,10 +661,9 @@ readable, with the command output inline just as it appears during a session.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/modify-the-transcriptdirectory-value.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/modify-the-transcriptdirectory-value.png
+>* ShowAutomatically = No
 
 #### :calling: COMMAND TypeText
 
@@ -716,10 +693,9 @@ Administrators group.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/modify-the-runasvirtualaccount-value.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/modify-the-runasvirtualaccount-value.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -743,10 +719,9 @@ discoverability—to the CONTOSO\BenSmith user account.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/modify-the-roledefinitions-value.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/modify-the-roledefinitions-value.png
+>* ShowAutomatically = No
 
 #### :calling: COMMAND TypeText
 
@@ -789,10 +764,9 @@ with a slightly different configuration.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/register-a-new-jea-endpoint.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/register-a-new-jea-endpoint.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -817,10 +791,9 @@ the same set of commands as the one you used in the previous exercise.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/list-the-endpoint-commands-2.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/list-the-endpoint-commands-2.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -852,10 +825,9 @@ that use them.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/show-the-demomodule-file-structure.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/show-the-demomodule-file-structure.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -865,10 +837,9 @@ Run the command on **line 49**. A new tab opens in the script pane.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/open-the-maintenancepsrc-file.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/open-the-maintenancepsrc-file.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -895,10 +866,9 @@ as the commands that are whitelisted for a user who is assigned to this role.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/review-the-file-contents-2.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/review-the-file-contents-2.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -922,10 +892,9 @@ preferred over making executable programs visible.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/modify-the-visibleexternalcommands-value.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/modify-the-visibleexternalcommands-value.png
+>* ShowAutomatically = No
 
 #### :calling: COMMAND TypeText
 
@@ -956,10 +925,9 @@ wildcard character to ensure you don't unintentionally make commands visible.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/modify-the-visiblecmdlets-value.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/modify-the-visiblecmdlets-value.png
+>* ShowAutomatically = No
 
 #### :calling: COMMAND TypeText
 
@@ -980,10 +948,9 @@ Press **Ctrl+S** to save the **Maintenance.psrc** file.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/save-the-file.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/save-the-file.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1004,10 +971,9 @@ message.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/connect-to-jeademo2.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/connect-to-jeademo2.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1024,10 +990,9 @@ the NetTCPIP module.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/list-the-endpoint-commands-3.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/list-the-endpoint-commands-3.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1042,10 +1007,9 @@ names allowed by the Restart-Service cmdlet in this role.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/restart-the-spooler-service.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/restart-the-spooler-service.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1062,10 +1026,9 @@ result, this command fails as expected.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/restart-the-wsearch-service.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/restart-the-wsearch-service.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1075,10 +1038,9 @@ Run the command on **line 64**.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/invoke-ipconfig.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/invoke-ipconfig.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1088,10 +1050,9 @@ Run the command on **line 67**.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/confirm-that-you-can-restart-the-computer.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/confirm-that-you-can-restart-the-computer.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1119,9 +1080,8 @@ with the user drive.
 Congratulations! You now know how to leverage the user drive in your own JEA
 endpoints. Click Continue to move to the next exercise.
 
-```
-IntroductionUri = https://lodmanuals.blob.core.windows.net/manuals/Ignite 2016/Videos/IDL4002_new content/Working with the User Drive.mp4
-```
+>LODSProperties
+>* IntroductionUri = https://lodmanuals.blob.core.windows.net/manuals/Ignite 2016/Videos/IDL4002_new content/Working with the User Drive.mp4
 
 <hr>
 
@@ -1140,10 +1100,9 @@ On the FIle menu, click **Open**. Browse to
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/open-the-powershell-script-3.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/open-the-powershell-script-3.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1181,10 +1140,9 @@ that setting may be changed in the session configuration file.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/review-the-script-contents.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/review-the-script-contents.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1195,10 +1153,9 @@ once**.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/run-the-script.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/run-the-script.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1215,10 +1172,9 @@ On the File menu, click **Open**. Browse to
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/open-the-powershell-script-4.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/open-the-powershell-script-4.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1228,10 +1184,9 @@ Read the comments at the top of the **3b-JEAWorkingWithUserDrive.ps1** file.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/read-the-script-description-3.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/read-the-script-description-3.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1323,10 +1278,9 @@ endpoint is as easy as copying files on your local computer.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/copy-the-report-locally.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/copy-the-report-locally.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1336,10 +1290,9 @@ Run the command on **line 35**.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/open-the-report.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/open-the-report.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1364,10 +1317,9 @@ command shows you the contents of that folder.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/show-the-user-drive-root-folder-contents.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/show-the-user-drive-root-folder-contents.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1394,10 +1346,9 @@ across JEA sessions.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/verify-the-user-drive-root-folder-still-exists.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/verify-the-user-drive-root-folder-still-exists.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1419,9 +1370,8 @@ tools that you can use to help you with logging and auditing.
 Congratulations! You have now learned how to perform logging and auditing with
 JEA. Click Continue to advance to the next exercise.
 
-```
-IntroductionUri = https://lodmanuals.blob.core.windows.net/manuals/Ignite 2016/Videos/IDL4002_new content/Reporting on JEA.mp4
-```
+>LODSProperties
+>* IntroductionUri = https://lodmanuals.blob.core.windows.net/manuals/Ignite 2016/Videos/IDL4002_new content/Reporting on JEA.mp4
 
 <hr>
 
@@ -1445,10 +1395,9 @@ On the File menu, click **Open**. Browse to
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/open-the-powershell-script-5.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/open-the-powershell-script-5.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1458,10 +1407,9 @@ Read the comments at the top of the **4-JEAReporting.ps1** file.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/read-the-script-description-4.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/read-the-script-description-4.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1478,10 +1426,9 @@ show only the JEA endpoints that are on the local machine.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/list-all-jea-endpoints.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/list-all-jea-endpoints.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1504,10 +1451,9 @@ you identify so that you can properly audit and report on this information.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/list-the-endpoint-commands-for-a-specific-user.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/list-the-endpoint-commands-for-a-specific-user.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1532,10 +1478,9 @@ commands, and more.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/view-the-jea-session-transcripts.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/view-the-jea-session-transcripts.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1560,10 +1505,9 @@ PowerShell operational log and displays them in a grid for review.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/review-the-powershell-event-log-entries.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/review-the-powershell-event-log-entries.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1621,10 +1565,9 @@ start working with JEA and DSC.
 
 #### :camera: Screenshot
 
-```
-Uri = screenshots/read-the-script-description-5.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/read-the-script-description-5.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1648,10 +1591,9 @@ not start until the first step has completed successfully.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/define-a-sample-jea-configuration.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/define-a-sample-jea-configuration.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1670,10 +1612,9 @@ you allow domain users to be used for deployments unless necessary.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/bypass-some-security-checks.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/bypass-some-security-checks.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1706,10 +1647,9 @@ that they are all kept in the same place.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/generate-a-mof-file-for-deployment-to-srv02.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/generate-a-mof-file-for-deployment-to-srv02.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1738,10 +1678,9 @@ which you can connect.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/push-the-mof-file-to-a-remote-server.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/push-the-mof-file-to-a-remote-server.png
+>* ShowAutomatically = No
 
 <hr>
 
@@ -1778,10 +1717,9 @@ can also use this information to identify which system you are connected to.
 
 #### :camera: SCREENSHOT
 
-```
-Uri = screenshots/list-connection-information-from-the-endpoint.png
-ShowAutomatically = No
-```
+>LODSProperties
+>* Uri = screens/list-connection-information-from-the-endpoint.png
+>* ShowAutomatically = No
 
 <hr>
 
