@@ -95,8 +95,7 @@ Version 0.1
     1. [Exit the remoting session](#exit-the-remoting-session)
     1. [End the lab](#end-the-lab)
 
-<hr>
-<hr>
+* * *
 
 # Understanding PowerShell JEA
 
@@ -382,8 +381,7 @@ of CONTOSO\BenSmith.
 
 On the File menu, click **Exit**.
 
-<hr>
-<hr>
+* * *
 
 # Creating and managing a JEA endpoint
 
@@ -1066,8 +1064,7 @@ Run the command on **line 70**.
 
 On the File menu, click **Exit**.
 
-<hr>
-<hr>
+* * *
 
 # Working with the user drive in a JEA endpoint
 
@@ -1356,8 +1353,7 @@ across JEA sessions.
 
 On the File menu, click **Exit**.
 
-<hr>
-<hr>
+* * *
 
 # Reporting on JEA
 
@@ -1515,8 +1511,7 @@ PowerShell operational log and displays them in a grid for review.
 
 On the File menu, click **Exit**.
 
-<hr>
-<hr>
+* * *
 
 # Deployment and maintenance with DSC
 
