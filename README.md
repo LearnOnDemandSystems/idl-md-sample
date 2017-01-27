@@ -1,4 +1,4 @@
-This repository defines the Integrated Digital Lab (IDL) in markdown format for
+﻿This repository defines the Integrated Digital Lab (IDL) in markdown format for
 the *[Introducing Just Enough Administration (JEA)](https://labondemand.com/LabProfile/27809)* lab.
 
 The IDL itself is defined in the [idl.md](idl.md) file.

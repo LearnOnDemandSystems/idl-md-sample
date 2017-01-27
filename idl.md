@@ -1,4 +1,4 @@
-<!--
+﻿<!--
 Version 0.1
 -->
 
@@ -253,7 +253,7 @@ which you connected. The commands you see will always be a very limited subset
 of the commands that are normally available in PowerShell.
 
 By default, all JEA endpoints include seven default JEA cmdlets. The JEA_Demo
-endpoint includes two additional commands—Get-UserInfo and Restart-Service—that
+endpoint includes two additional commands-Get-UserInfo and Restart-Service-that
 were explicitly added to it when it was created. You will learn how to create a
 JEA endpoint and add commands to it in a later exercise.
 
@@ -274,7 +274,7 @@ Run the command on **line 29**.
 The Get-UserInfo function that is included in the JEA_Demo JEA endpoint lets
 you look at the user context under which this session is operating. The
 properties that are output include the ConnectedUser as well as the RunAsUser.
-ConnectedUser is the account that was used to connect to the remote session—for
+ConnectedUser is the account that was used to connect to the remote session-for
 example, your user account, which is CONTOSO\BenSmith in this session. RunAsUser
 is a privileged virtual account that is created when the session is created and
 destroyed when the session is closed. It performs actions on behalf of the
@@ -445,7 +445,7 @@ Run the command on **line 18**.
 
 JEA uses restricted PowerShell remoting endpoints to provide delegated
 administration using role-based access control. The Get-PSSessionConfiguration
-command shows you all PowerShell remoting endpoints on the system—session
+command shows you all PowerShell remoting endpoints on the system-session
 configuration is just a fancy name for endpoint. Most of the endpoints shown in
 the output of this command are created by default in Windows. The JEA_Demo
 endpoint is one that was specifically added and configured for JEA to allow you
@@ -588,8 +588,8 @@ Review the contents of the **JEADDemo2.pssc** file.
 
 #### :bulb: KNOWLEDGE
 
-A PowerShell Session Configuration file—also known as a PowerShell endpoint
-configuration file—is a lot like a PowerShell module manifest (.psd1). It
+A PowerShell Session Configuration file-also known as a PowerShell endpoint
+configuration file-is a lot like a PowerShell module manifest (.psd1). It
 contains key-value pairs that define the configuration of the PowerShell
 endpoint.
 
@@ -712,8 +712,8 @@ connecting user directly or based on group membership. This is the core of JEA's
 RBAC functionality.
 
 With this modification, you are exposing the pre-made maintenance role
-capability—defined in a role capability file that is placed in a module for
-discoverability—to the CONTOSO\BenSmith user account.
+capability-defined in a role capability file that is placed in a module for
+discoverability-to the CONTOSO\BenSmith user account.
 
 #### :camera: SCREENSHOT
 
@@ -852,7 +852,7 @@ the commands that are available to a user or group when they connect to that
 endpoint. The command restrictions are defined inside a role capability (.psrc)
 file, and are included in PowerShell modules for easy distribution and
 discovery. Role capability files are then associated with users and groups in
-PowerShell session configuration—a fancy term for PowerShell endpoint—files that
+PowerShell session configuration-a fancy term for PowerShell endpoint-files that
 define what a PowerShell endpoint supports. This combination of PowerShell
 session configuration files and role capability files provide the backbone that
 makes JEA work.
@@ -1112,13 +1112,13 @@ Review the contents of the **3a-JEASetupEndpointWithUserDrive.ps1** file.
 This script file will create a new JEA endpoint called JEA_UserDrive_Demo. The
 creation of this endpoint is broken down into four main parts:
 
-1. Lines 6–22 create an empty Support_Demo module that is discoverable by all
+1. Lines 6-22 create an empty Support_Demo module that is discoverable by all
 users.
-1. Lines 28–48 create a role capability file inside of the Support_Demo module.
-The role capability file defines a Get-UserDriveLocation function (lines 39–40)
-and a New-ProcessReport function (lines 43–44). These two functions work
+1. Lines 28-48 create a role capability file inside of the Support_Demo module.
+The role capability file defines a Get-UserDriveLocation function (lines 39-40)
+and a New-ProcessReport function (lines 43-44). These two functions work
 directly with the user drive.
-1. Lines 54–85 create a new JEA endpoint configuration file that will mount the
+1. Lines 54-85 create a new JEA endpoint configuration file that will mount the
 user drive for any user who connects to an endpoint registered with this
 configuration file.
 1. Line 92 registers the JEA_UserDrive_Demo endpoint on the system.
@@ -1210,11 +1210,11 @@ commands.
 Having a remoting session in a variable is useful in a number of scenarios.
 
 - Capturing data received from a JEA endpoint directly from a command
-invocation—for example, storing the results of an Invoke-Command invocation in a
+invocation-for example, storing the results of an Invoke-Command invocation in a
 variable.
-- Copying items to or from the user drive—for example, Copy-Item.
+- Copying items to or from the user drive-for example, Copy-Item.
 - Using the pipeline to send data into or process data coming out of a JEA
-endpoint—for example, Invoke-Command.
+endpoint-for example, Invoke-Command.
 
 The rest of this exercise will focus on the second scenario in the list.
 
@@ -1568,20 +1568,20 @@ start working with JEA and DSC.
 
 ### Define a sample JEA configuration
 
-Select **lines 20–51**, and then on the toolbar, click **Run Selection** (green
+Select **lines 20-51**, and then on the toolbar, click **Run Selection** (green
 arrow on page).
 
 #### :bulb: KNOWLEDGE
 
-Lines 20–51 in the 5-JEADeployWithDSC.ps1 file define the configuration that
+Lines 20-51 in the 5-JEADeployWithDSC.ps1 file define the configuration that
 will be used to deploy JEA to remote systems in the current PowerShell session.
 
 The deployment configuration is defined in two steps.
 
 1. Copy a role capability file from a UNC share to the target server where the
-JEA endpoint is being deployed (see lines 34–41).
+JEA endpoint is being deployed (see lines 34-41).
 1. Create the JEA endpoint on that remote system, assigning the role
-capabilities to a user and using a user drive (see lines 43–49). This step will
+capabilities to a user and using a user drive (see lines 43-49). This step will
 not start until the first step has completed successfully.
 
 #### :camera: SCREENSHOT
@@ -1594,13 +1594,13 @@ not start until the first step has completed successfully.
 
 ### Bypass some security checks
 
-Select **lines 54–62**, and then on the toolbar, click **Run Selection** (green
+Select **lines 54-62**, and then on the toolbar, click **Run Selection** (green
 arrow on page).
 
 #### :bulb: KNOWLEDGE
 
 To simplify this lab, you will not use all of the security features that are
-available in PowerShell DSC. Lines 54–62 instruct PowerShell DSC to allow a
+available in PowerShell DSC. Lines 54-62 instruct PowerShell DSC to allow a
 plain text password and to allow a domain user to be used for the deployment.
 In production environments, you should not allow plain text passwords nor should
 you allow domain users to be used for deployments unless necessary.
