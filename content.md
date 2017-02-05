@@ -96,7 +96,7 @@ Version 0.1
     1. [End the lab](#end-the-lab)
 
 * * *
-
+ 
 # Understanding PowerShell JEA
 
 In this exercise, you will connect to an existing JEA endpoint that will allow
