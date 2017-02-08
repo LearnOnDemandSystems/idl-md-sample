@@ -97,9 +97,8 @@ Version 0.1
 
 * * *
 
-# Understanding PowerShell JEA
+# Understanding PowerShell JEA Test
 
-Test
 In this exercise, you will connect to an existing JEA endpoint that will allow
 you to invoke the Restart-Service cmdlet as well as a custom Get-UserInfo
 function.
