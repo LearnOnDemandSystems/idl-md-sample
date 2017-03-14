@@ -387,6 +387,8 @@ On the File menu, click **Exit**.
 
 # Creating and managing a JEA endpoint
 
+## INTRODUCTION MESSAGE
+
 In this exercise, you will create an exact replica of the demo JEA endpoint you
 used in the last exercise. You will then modify that endpoint by adding some
 commands to it and restricting others, and then you will verify that those
@@ -1070,6 +1072,8 @@ On the File menu, click **Exit**.
 
 # Working with the user drive in a JEA endpoint
 
+## INTRODUCTION MESSAGE
+
 In this exercise, you will create a new JEA endpoint that mounts a user drive.
 You will then connect to that endpoint and invoke commands that let you interact
 with the user drive.
@@ -1359,6 +1363,8 @@ On the File menu, click **Exit**.
 
 # Reporting on JEA
 
+## INTRODUCTION MESSAGE
+
 Because JEA allows non-privileged users to run in a privileged context, logging
 and auditing are extremely important. In this section, you will learn about the
 tools that you can use to help you with logging and auditing.
@@ -1516,6 +1522,8 @@ On the File menu, click **Exit**.
 * * *
 
 # Deployment and maintenance with DSC
+
+## INTRODUCTION MESSAGE
 
 In this exercise, you will deploy and test a new JEA endpoint to a remote system
 using PowerShell Desired State Configuration (DSC).
