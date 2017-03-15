@@ -138,7 +138,7 @@ On the taskbar, click **Windows PowerShell ISE**.
 >* Uri = screens/open-windows-powershell-ise.png 
 >* ShowAutomatically = No
 
-#### :calling: COMMAND PowerShell
+#### :calling: COMMAND
 
 ```PowerShell
 powershell_ise.exe
