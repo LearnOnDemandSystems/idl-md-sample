@@ -97,7 +97,9 @@ Version 0.1
 
 * * *
 
-# Understanding PowerShell JEA1
+# Understanding PowerShell JEA
+>LODSProperties
+>* IntroductionUri = https://lodmanuals.blob.core.windows.net/manuals/Ignite 2016/Videos/IDL4002_new content/Experiencing PowerShell JEA.mp4
 
 ## INTRODUCTION MESSAGE
 
@@ -109,9 +111,6 @@ function.
 
 Congratulations. You have now finished the first exercise! You should have an
 idea of what JEA is by now. Click **Continue** to advance to the next exercise.
-
->LODSProperties
->* IntroductionUri = https://lodmanuals.blob.core.windows.net/manuals/Ignite 2016/Videos/IDL4002_new content/Experiencing PowerShell JEA.mp4
 
 <hr>
 
