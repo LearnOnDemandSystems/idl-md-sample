@@ -97,7 +97,7 @@ Version 0.1
 
 * * *
 
-# Understanding PowerShell JEA
+# Understanding PowerShell JEA1
 
 ## INTRODUCTION MESSAGE
 
