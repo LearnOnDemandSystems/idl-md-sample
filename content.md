@@ -386,6 +386,9 @@ On the File menu, click **Exit**.
 
 # Creating and managing a JEA endpoint
 
+>LODSProperties
+>* IntroductionUri = https://lodmanuals.blob.core.windows.net/manuals/Ignite 2016/Videos/IDL4002_new content/Creating and Managing a JEA Endpoint.mp4
+
 ## INTRODUCTION MESSAGE
 
 In this exercise, you will create an exact replica of the demo JEA endpoint you
@@ -398,9 +401,6 @@ modifications were automatically applied to the endpoint.
 Congratulations! You now understand what JEA endpoints allow you to do, and you
 know how to create and manage JEA endpoints. Click Continue to advance to the
 next exercise.
-
->LODSProperties
->* IntroductionUri = https://lodmanuals.blob.core.windows.net/manuals/Ignite 2016/Videos/IDL4002_new content/Creating and Managing a JEA Endpoint.mp4
 
 <hr>
 
@@ -1071,6 +1071,9 @@ On the File menu, click **Exit**.
 
 # Working with the user drive in a JEA endpoint
 
+>LODSProperties
+>* IntroductionUri = https://lodmanuals.blob.core.windows.net/manuals/Ignite 2016/Videos/IDL4002_new content/Working with the User Drive.mp4
+
 ## INTRODUCTION MESSAGE
 
 In this exercise, you will create a new JEA endpoint that mounts a user drive.
@@ -1081,9 +1084,6 @@ with the user drive.
 
 Congratulations! You now know how to leverage the user drive in your own JEA
 endpoints. Click Continue to move to the next exercise.
-
->LODSProperties
->* IntroductionUri = https://lodmanuals.blob.core.windows.net/manuals/Ignite 2016/Videos/IDL4002_new content/Working with the User Drive.mp4
 
 <hr>
 
@@ -1362,6 +1362,9 @@ On the File menu, click **Exit**.
 
 # Reporting on JEA
 
+>LODSProperties
+>* IntroductionUri = https://lodmanuals.blob.core.windows.net/manuals/Ignite 2016/Videos/IDL4002_new content/Reporting on JEA.mp4
+
 ## INTRODUCTION MESSAGE
 
 Because JEA allows non-privileged users to run in a privileged context, logging
@@ -1372,9 +1375,6 @@ tools that you can use to help you with logging and auditing.
 
 Congratulations! You have now learned how to perform logging and auditing with
 JEA. Click Continue to advance to the next exercise.
-
->LODSProperties
->* IntroductionUri = https://lodmanuals.blob.core.windows.net/manuals/Ignite 2016/Videos/IDL4002_new content/Reporting on JEA.mp4
 
 <hr>
 
