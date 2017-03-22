@@ -98,6 +98,8 @@ Version 0.1
 * * *
 
 # Understanding PowerShell JEA
+>LODSProperties
+>* IntroductionUri = https://lodmanuals.blob.core.windows.net/manuals/Ignite 2016/Videos/IDL4002_new content/Experiencing PowerShell JEA.mp4
 
 >LODSProperties
 >* IntroductionUri = https://lodmanuals.blob.core.windows.net/manuals/Ignite 2016/Videos/IDL4002_new content/Experiencing PowerShell JEA.mp4
@@ -138,7 +140,7 @@ On the taskbar, click **Windows PowerShell ISE**.
 >* Uri = screens/open-windows-powershell-ise.png 
 >* ShowAutomatically = No
 
-#### :calling: COMMAND PowerShell
+#### :calling: COMMAND
 
 ```PowerShell
 powershell_ise.exe
