@@ -101,9 +101,6 @@ Version 0.1
 >LODSProperties
 >* IntroductionUri = https://lodmanuals.blob.core.windows.net/manuals/Ignite 2016/Videos/IDL4002_new content/Experiencing PowerShell JEA.mp4
 
->LODSProperties
->* IntroductionUri = https://lodmanuals.blob.core.windows.net/manuals/Ignite 2016/Videos/IDL4002_new content/Experiencing PowerShell JEA.mp4
-
 ## INTRODUCTION MESSAGE
 
 In this exercise, you will connect to an existing JEA endpoint that will allow
