@@ -107,8 +107,6 @@ In this exercise, you will connect to an existing JEA endpoint that will allow
 you to invoke the Restart-Service cmdlet as well as a custom Get-UserInfo
 function.
 
-Isn't GitHub great?
-
 ## COMPLETION MESSAGE
 
 Congratulations. You have now finished the first exercise! You should have an
