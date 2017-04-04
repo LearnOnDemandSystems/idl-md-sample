@@ -2,7 +2,7 @@
 Version 0.1
 -->
 
-#  Table of Contents
+#  Table of Contents 
 1. [Understanding PowerShell JEA](#understanding-powershell-jea)
     1. [Sign in to SRV01](#sign-in-to-srv01)
     1. [Open the Windows PowerShell ISE](#open-the-windows-powershell-ise)
@@ -97,7 +97,7 @@ Version 0.1
 
 * * *
 
-# Understanding PowerShell JEA 
+# Understanding PowerShell JEA
 >LODSProperties
 >* IntroductionUri = https://lodmanuals.blob.core.windows.net/manuals/Ignite 2016/Videos/IDL4002_new content/Experiencing PowerShell JEA.mp4
 
