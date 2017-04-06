@@ -167,7 +167,7 @@ exercise.
 >* Uri = screens/open-the-powershell-script-1.png
 >* ShowAutomatically = No
 
-<hr>
+---
 
 ### Read the script description
 
