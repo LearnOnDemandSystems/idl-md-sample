@@ -114,7 +114,7 @@ idea of what JEA is by now. Click **Continue** to advance to the next exercise.
 
 ---
 
-### Sign in to Server1
+### Sign in to SRV01
 
 If necessary, click the **Switch to Machine** icon to the right of this
 instruction, and then sign in to **SRV01** as **CONTOSO\LabAdmin** using
