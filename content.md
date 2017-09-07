@@ -109,8 +109,8 @@ function.
 
 ## COMPLETION MESSAGE
 
-Congratulations. You have now finished the first exercise! At this point you
-should have a good idea of what JEA is. Click **Continue** to advance to the
+Congratulations. You have now finished the first exercise! You should have
+a good idea of what JEA is by now. Click **Continue** to advance to the
 next exercise.
 
 ---
