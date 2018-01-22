@@ -121,7 +121,7 @@ If necessary, click the **Switch to Machine** icon to the right of this
 instruction, and then sign in to **SRV01** as **CONTOSO\LabAdmin** using
 **Passw0rd!** as the password.
 
-#### :computer: ACTIONS
+#### :computer: ACTIONS 
 
 >LODSProperties
 >* VM = SRV01
