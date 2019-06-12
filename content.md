@@ -3,7 +3,7 @@ Version 0.1
 -->
 
 
-#  Table of Contents -
+#  Table of Contents
 1. [Understanding PowerShell JEA](#understanding-powershell-jea)
     1. [Sign in to SRV01](#sign-in-to-srv01)
     1. [Open the Windows PowerShell ISE](#open-the-windows-powershell-ise)
