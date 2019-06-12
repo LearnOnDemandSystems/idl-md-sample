@@ -169,6 +169,8 @@ exercise.
 >* Uri = screens/open-the-powershell-script-1.png
 >* ShowAutomatically = No
 
+![](screens/open-the-powershell-script-1.png)
+
 ---
 
 ### Read the script description
